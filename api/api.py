@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify
 api = Blueprint("api",__name__)
-@api.route("/user")
+@api.route("/users")
 def user():
-    return jsonify({"name":"Ready", "secret":7})
+    return "Hello"
